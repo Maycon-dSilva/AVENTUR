@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and  (max-width: 768px) {
     
     @import "hero-mobile.css";
     
@@ -38,4 +38,15 @@
         display: none;
     }
 
+}
+
+@media only screen and (max-width: 960px) {
+    
+    #header-menu{
+        margin: 0;
+    }
+
+    #hero-content-cta{
+        margin: 20% 0 0;
+    }
 }

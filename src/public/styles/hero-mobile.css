@@ -49,8 +49,8 @@
     .card-tour{
         display: flex;
         flex-direction: column;
-        width: 90%;
-        margin: 0 10px 15px;
+        max-width: 90%;
+        margin: 0 13px 15px;
     }
 
     .card-tour-content{
@@ -68,12 +68,46 @@
     }
 }
 
-@media only screen and (max-width: 915px){
+@media only screen  and (max-width: 960px){
 
     #section-hero{
         background-image: url("../media/img/aero-beach.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+       }
+
+       #hero-title{
+        font-size: 50px;
+       }
+
+       #text-box-tour{
+        font-size: 25px;
+       }
+
+       .card-tour{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+       }
+
+       .card-img-tour{
+        width: 100%;
+        height: 200px;        
+       }
+
+       .card-tour-data{
+        width: 50%;
+        text-align: center;
+       }
+
+       .card-tour-content{
+        margin-left: 15%;
+       }
+
+       .card-tour-link{
+        padding: 5px 10px;
+        margin-bottom: 10px;
        }
 
 }
