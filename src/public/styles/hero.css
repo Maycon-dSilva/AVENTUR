@@ -1,0 +1,217 @@
+#section-hero{
+    height: 725px;
+    background-image: url("../media/img/image-florest.jpg");
+    background-size: 100% 100%; 
+}
+
+#hero-content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#hero-content-info{
+    width: 50%;
+    height: 70%;
+    margin: 0 5% 0 5%;
+}
+
+#hero-content-info > :nth-child(3){
+    justify-content: space-around;
+}
+
+#hero-title{
+    font-family: "lexend", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+    color: white;
+    text-align: start;
+    margin-bottom: 10%;
+}
+
+#hero-title > span{
+    font-family: "paprika";
+    text-decoration: underline #FFCC00;
+}
+
+#hero-subtitle{
+    font-family: "lexend", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+    text-align: start;
+    margin-bottom: 15%;
+}
+
+#hero-subtitle:hover{
+    cursor: pointer;
+    text-decoration: underline #FFCC00;
+}
+
+/*link direcionamento whatsapp*/
+
+#hero-content-cta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-family: "lexend", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 3% 10%;
+  border-radius: 20px;
+  background-color: rgba(23, 32, 27, 70%);
+  backdrop-filter: blur(1px);
+}
+
+#hero-content-cta > :nth-child(1){
+    margin-left: 20%;
+}
+
+#hero-content-cta:hover{
+    border: 1px solid white;
+}
+
+/*box tour*/
+
+#box-tour{
+    width: 50%;
+    height: 70%;
+    background-color: rgba(23, 32, 27, 50%);
+    backdrop-filter: blur(1px);
+    border: 1px solid none;
+    border-radius: 20px;
+    margin: 20px 20px 0 0;
+}
+
+#text-box-tour{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #fff;
+    font-family: "lexend", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#text-box-tour > .material-symbols-outlined{
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+.card-tour{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: auto;
+    height: 35%;
+    margin: 0 10px 10px 10px;
+    padding: 5px;
+    background-color: #FFFF;
+    border-radius: 20px;
+}
+.card-tour-container{
+    position: relative;
+}
+
+.card-img-tour{
+    width: auto;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+.card-tour-data{
+    position: absolute;
+    left: 25%;
+    bottom: 1%;
+    background-color: #fff;
+    border-radius: 20px;
+    font-family: "lexend", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.card-tour-content{
+    width: 70%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.card-tour-content > *:nth-child(1){
+    font-family: "playfair display", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 5px;
+}
+
+.card-tour-content > *:nth-child(2){
+    font-family: "lexend", sans-serif;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.card-tour-content > *:nth-child(3){
+    font-family: "lexend", sans-serif;
+    font-weight: 300;
+    text-align: start;
+     margin: 10px 5px 15px 15px;
+}
+
+.content-tour-Nday{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-Ndias{
+    background-color: #FABD42;
+    margin-right: 10px;
+}
+
+.content-Ndias > *:nth-child(1){
+    padding: 0 5px 0 0;
+}
+
+.content-Nnoites > *:nth-child(1){
+    padding: 0 5px 0 0;
+}
+
+.content-Nnoites{
+    background-color: #0F468C;
+}
+
+.content-Ndias, .content-Nnoites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "lexend", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+
+.card-tour-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-family: "lexend", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    background-color: #34487B;
+    border-radius: 18px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.card-tour-link:hover{
+    background-color: #FABD42;
+}
+

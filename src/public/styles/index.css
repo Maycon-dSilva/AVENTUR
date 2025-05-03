@@ -1,0 +1,14 @@
+@import "header.css";
+@import "footer.css";
+@import "hero.css";
+@import "mobile.css";
+@import "hero-mobile.css";
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lexend:wght@100..900&family=Paprika&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+    
+    @import "hero-mobile.css";
+    
+    header{
+         display: flex;
+         flex-direction: column;
+         padding: 10px 0;
+        margin-bottom: 5px;
+    }
+
+    #header-logo{
+        margin-bottom: 5px;
+    }
+
+    #header-menu{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .header-menu-link{
+        width: inherit;
+    }
+
+    .header-menu-link, ul{
+        font-size: 15px;
+        padding: 0 10px;
+        margin: 0;
+        background-color: initial;
+        border-radius: initial;
+    }
+
+    .header-menu-link > .material-symbols-outlined{
+        display: none;
+    }
+
+}
