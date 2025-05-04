@@ -1,4 +1,4 @@
-@media only screen and  (max-width: 768px) {
+@media only screen and (orientation:portrait) and (max-width:768px){
     
     @import "hero-mobile.css";
     
@@ -11,6 +11,11 @@
 
     #header-logo{
         margin-bottom: 5px;
+    }
+
+    #header-logo > h4{
+        font-size: 15px;
+        margin: 0 0 10px 0;
     }
 
     #header-menu{
@@ -27,15 +32,28 @@
     }
 
     .header-menu-link, ul{
-        font-size: 15px;
+        font-size: 12px;
         padding: 0 10px;
         margin: 0;
         background-color: initial;
         border-radius: initial;
+    } 
+
+    /*Footer*/
+
+    #content-info > h1{
+        font-size: 25px;
+        margin: 0;
     }
 
-    .header-menu-link > .material-symbols-outlined{
-        display: none;
+    #link-wa, #link-cadastur, #link-mail{
+        position: initial;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .content-card-link > h3{
+        font-size: 15px;
     }
 
 }
@@ -49,4 +67,24 @@
     #hero-content-cta{
         margin: 20% 0 0;
     }
+
+    #content-info > h1{
+        font-size: 30px;
+    }
+
+    #link-wa, #link-cadastur, #link-mail{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    #link-mail{
+        top: 90px;
+        right: 30px;
+    }
+
+    #link-wa{
+        right: 30px;
+    }
+
 }

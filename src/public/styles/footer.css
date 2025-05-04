@@ -1,0 +1,125 @@
+#section-contato{
+    background-color: #071040;
+}
+
+#content-info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: auto;
+    height: 200px;
+    padding: 20px  15px 30px;
+    background-color: #93A603;
+}
+
+#content-info > h1{
+    font-family: "lexend", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFF;
+    margin: 10px 20px;
+}
+
+#link-wa{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-family: "lexend", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+#link-mail{
+    position: absolute;
+    right: 90px;
+    top: 60px;
+    font-family: "lexend", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+#link-wa:hover{
+    cursor: pointer;
+    background-color: #2A4024;
+}
+
+#link-mail:hover{
+    cursor: pointer;
+    background-color: #2A4024;
+}
+
+#link-cadastur{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    font-family: "lexend", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+#link-cadastur:hover{
+    cursor: pointer;
+    background-color: #2A4024;
+}
+
+#content-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2A4024;
+    padding-bottom: 20px;
+    width: auto;
+    height: 200px;
+}
+
+
+.content-card-link{
+    width: auto;
+    height: 150px;
+    text-align: center;
+}
+
+.content-card-link > ul{
+    padding: 0;
+}
+
+
+.content-card-link > h3{
+    font-family: "lexend", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.content-link{
+    font-family: "lexend", sans-serif;
+    font-weight: 200;
+    color: #fff;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.content-link:hover{
+    cursor: pointer;
+    text-decoration: underline #FFCC00;
+}
+

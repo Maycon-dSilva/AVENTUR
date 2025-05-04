@@ -82,15 +82,13 @@
     height: 70%;
     background-color: rgba(23, 32, 27, 50%);
     backdrop-filter: blur(1px);
-    border: 1px solid none;
     border-radius: 20px;
     margin: 20px 20px 0 0;
+    overflow: scroll;
 }
 
 #text-box-tour{
-    display: flex;
-    justify-content: center;
-    align-items:center;
+    text-align: center;
     color: #fff;
     font-family: "lexend", sans-serif;
     font-weight: 500;
@@ -209,6 +207,7 @@
     border-radius: 18px;
     text-decoration: none;
     margin-left: 40px;
+    padding: 2px 15px;
 }
 
 .card-tour-link:hover{
